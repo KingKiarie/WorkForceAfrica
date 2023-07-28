@@ -10,7 +10,7 @@ const NavBar = () => {
         <nav className={styles.navBar}>
         
             <div className={styles.navLinks}>
-            <img className={styles.logo} src={logo} alt="workforce" />
+           <Link to="/"><img className={styles.logo} src={logo} alt="workforce" /></Link>
             <Link className={styles.link} to="/">Homepage</Link>
             <Link className={styles.link} to="/about" >About</Link>
             <Link className={styles.link} to="/contact" >Contact</Link>
